@@ -1,0 +1,144 @@
+body {
+    font-family: 'Times new roman', sans-serif;
+    margin: 0;
+    background-color: #fbf8ed;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #777da7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header a {
+    color: #fbf8ed;
+  }
+  
+  .icon {
+    width: 80px;
+  }
+
+  .book {
+    background-color: #d7bfa3;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a:hover {
+    background-color: black;
+    color: #d9c2a3
+  }
+  
+  nav a {
+    text-align: center;
+    color: #fcfbfb
+    text-decoration: none;
+  }
+  
+  .hero {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .cta {
+    padding: 2rem 1rem;
+  }
+  
+  .cta h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cta .book-now {
+    background-color: #4d594d;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .feature {
+    margin: 2rem auto;
+    max-width: 500px;
+  }
+  
+  .feature img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .feature .icon {
+    width: 30px;
+    margin-top: 0.5rem;
+  }
+  
+  .highlight {
+    background-color: #d7bfa3;
+    padding: 2rem 1rem;
+  }
+  
+  .highlight img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 6px;
+  }
+  
+  .text-block {
+    max-width: 700px;
+    margin: 1rem auto;
+  }
+  
+  .text-block h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-block a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #4d594d;
+    text-decoration: underline;
+  }
+  
+  .msg {
+    margin-top: 1rem;
+    background-color: #777da7;
+    color: #fbf8ed;
+    margin-bottom: 1.5rem;
+  }
+
+  footer {
+    background-color: #777da7;
+    color: #fbf8ed;
+    padding: 1rem;
+  }
+  
+  footer p {
+    font-size: 1.2em;
+    text-align: left;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    margin: 0.5rem;
+  }
+  
