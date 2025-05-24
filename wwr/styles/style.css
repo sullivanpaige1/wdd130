@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,150,100..900;1,150,100..900&family=Audiowide&display=swap');
 body {
-    font-family: 'Times new roman', sans-serif;
-    margin: 0;
     background-color: #fbf8ed;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     color: #333;
     text-align: center;
   }
+  h2 {
+    margin: 0;
+  }
   
+  #logo_link {
+    padding-top: 5px;
+  }
+
   header {
     background-color: #777da7;
     display: flex;
@@ -14,33 +24,57 @@ body {
   }
 
   header a {
-    color: #fbf8ed;
-  }
-  
-  .icon {
-    width: 80px;
+    color: black;
   }
 
-  .book {
+  .icon {
+    width: 80px;
+    padding-top: 10px;
+  }
+
+  .book, .join {
     background-color: #d7bfa3;
     text-decoration: none;
-    color: #333;
+    font-size: 18px;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
-  
-  nav {
-    display: flex;
-    gap: 1rem;
+
+  .book:hover, .join:hover {
+    background-color: #d7bfa3;
+    color: #fbf8ed;
+    text-decoration: none;
+  }
+
+  #background {
+    height: 725px;
+    background-color: #d7bfa3;
+  }
+
+  .card-img {
+    border: 10px solid #d7bfa3;
+  }
+
+  main section {
+    text-align: center;
+  }
+
+  main section img {
+    box-sizing: border-box;
   }
   
   nav a:hover {
     background-color: black;
-    color: #d9c2a3
+    color: #d7bfa3;
   }
   
   nav a {
-    text-align: center;
-    color: #fcfbfb
     text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
   }
   
   .hero {
@@ -48,97 +82,74 @@ body {
     display: block;
     margin: 0 auto;
   }
-  
-  .cta {
-    padding: 2rem 1rem;
+
+  #hero-msg h1, #hero-msg h4 {
+    text-align: center;
+  }
+
+  .button-box {
+    text-align: center;
   }
   
-  .cta h2 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  .home-title {
+    font-family: 'Advent Pro', 'Times new roman', sans-serif;
+    font-size: 2em;
+    color: #d7bfa3;
+    margin-top: 10px;
   }
-  
-  .cta .book-now {
-    background-color: #4d594d;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 6px;
-    display: inline-block;
-    margin-top: 1rem;
+
+  h4 {
+    color: black;
   }
-  
-  .feature {
-    margin: 2rem auto;
-    max-width: 500px;
-  }
-  
-  .feature img {
-    width: 100%;
-    border-radius: 6px;
-  }
-  
-  .feature .icon {
-    width: 30px;
-    margin-top: 0.5rem;
-  }
-  
-  .highlight {
-    background-color: #d7bfa3;
-    padding: 2rem 1rem;
-  }
-  
-  .highlight img {
-    width: 100%;
-    max-width: 700px;
-    border-radius: 6px;
-  }
-  
-  .text-block {
-    max-width: 700px;
-    margin: 1rem auto;
-  }
-  
-  .text-block h2 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .text-block a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #4d594d;
-    text-decoration: underline;
+
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
   }
   
   .msg {
     margin-top: 1rem;
     background-color: #777da7;
+    line-height: 1.5em;
     color: #fbf8ed;
     margin-bottom: 1.5rem;
+    padding: 35px;
+  }
+
+  .msg h2 {
+    color: #fbf8ed;
+  }
+
+  .msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+    color: #fbf8ed;
   }
 
   footer {
     background-color: #777da7;
     color: #fbf8ed;
     padding: 1rem;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
-  
+
+  footer a {
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #fbf8ed;
+  }
   footer p {
     font-size: 1.2em;
     text-align: left;
+    color: #fbf8ed;
   }
-  
   footer p a:hover {
     text-decoration: underline;
   }
-  
-  .social-icons {
-    margin-top: 0.5rem;
-  }
-  
-  .social-icons img {
+  footer .social img {
     width: 24px;
     margin: 0.5rem;
+    padding-top: 15px;
   }
   
