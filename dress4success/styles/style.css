@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap'); {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+html {
+    font-family: Red Hat Display, sans-serif;
+    background-color: white;
+    -webkit-font-smoothing: antilialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.home:before {
+    content: "";
+    position: fixed;
+}
+
+body {
+    color: #397DC9;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0;
+    display: block;
+}
+
+
+
+

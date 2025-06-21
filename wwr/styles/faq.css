@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,150,100..900;1,150,100..900&family=Audiowide&display=swap'); {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+body {
+    font-family: Advent Pro, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    background-color: #777da7;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fbf8ed;
+    align-items: center;
+  }
+  
+  main {
+    padding: 4rem;
+  }
+  
+  .h1 {
+    border: 1px solid #aaa;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+  }
+  
+  .h2 {
+    text-align: center;
+  }
+  
+  .h3 {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;               
+    margin-top: 30px;
+  }
+  
+  .centered-image {
+    width: 200px;            
+    height: 150px;
+    background-color: #ccc;  
+    object-fit: cover;       
+  }
+  
+  
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: #777da7;
+    color: #fbf8ed;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    font-size: 0.9em;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon-placeholder {
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+  }
+  
