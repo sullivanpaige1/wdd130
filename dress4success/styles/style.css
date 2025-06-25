@@ -4,25 +4,124 @@
     max-width: 1180px;
 }
 
-html {
-    font-family: Red Hat Display, sans-serif;
-    background-color: white;
-    -webkit-font-smoothing: antilialiased;
-    -webkit-text-size-adjust: 100%;
-}
-
-.home:before {
-    content: "";
-    position: fixed;
-}
-
-body {
-    color: #397DC9;
-    font-size: 1rem;
-    line-height: 1.625rem;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
     margin: 0;
-    display: block;
-}
+    padding: 20px;
+    background-color: #fdf8f2;
+    font-family: Red Hat Display, sans-serif;
+  }
+
+  header {
+    display: flex;
+    background-color: #397DC9;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    color: #fbf8ed;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background: #ddd;
+    border: 2px solid #000;
+  }
+  
+  .nav-button {
+    flex: 1;
+    height: 30px;
+    background: #eee;
+    border: 2px solid #000;
+  }
+  
+  /* Content layout */
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 120px;
+    gap: 20px;
+  }
+  
+  .main-box {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background: #eee;
+    border: 2px solid #000;
+  }
+  
+  .top-right-box {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background: #eee;
+    border: 2px solid #000;
+  }
+  
+  .bottom-left-box {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background: #eee;
+    border: 2px solid #000;
+  }
+  
+  .bottom-right-box {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background: #eee;
+    border: 2px solid #000;
+    height: 120px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: #397DC9;
+    color: #fbf8ed;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    font-size: 0.9em;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon-placeholder {
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+  }
 
 
 

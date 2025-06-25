@@ -21,7 +21,7 @@ body {
   
   nav a {
     margin: 0 15px;
-    text-decoration: none;
+    text-decoration: underline;
     color: #fbf8ed;
     align-items: center;
   }
@@ -60,7 +60,6 @@ body {
     background-color: #ccc;  
     object-fit: cover;       
   }
-  
   
   footer {
     display: flex;
