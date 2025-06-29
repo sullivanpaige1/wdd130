@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');{
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Red Hat Display, sans-serif;
+    background-color: #fdf8f0;
+    color: #397DC9;
+  }
+  
+  header {
+    display: flex;
+    background-color: #397DC9;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .image-container {
+    position: relative; /* Container for absolute positioning */
+  }
+  
+  .overlay-image {
+    position: absolute; /* Position relative to the container */
+    top: 0; /* Adjust positioning as needed */
+    left: 0;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Fade-in transition */
+  }
+  
+  .image-container:hover .overlay-image {
+    opacity: 1; /* Fully visible on hover */
+  }     
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    color: #fbf8ed;
+    align-items: center;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .banner {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4e8d8;
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 40px 40px;
+  }
+  
+  .service {
+    text-align: center;
+  }
+  
+  .service h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    background-color: #ffe;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .service-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    min-height: 150px;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;               
+    margin-top: 20px;
+  }
+  
+  .centered-image {
+    width: 200px;            
+    height: 150px;
+    background-color: #ccc;  
+    object-fit: cover;       
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: #397DC9;
+    color: #fbf8ed;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    font-size: 0.9em;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon-placeholder {
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+  }
+
+  
