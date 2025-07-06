@@ -9,9 +9,13 @@
   }
   
   body {
-    font-family: Red Hat Display, sans-serif;
-    background-color: #fdf8f0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
     color: #397DC9;
+    
   }
   
   header {
@@ -25,17 +29,8 @@
   nav a {
     margin: 0 15px;
     text-decoration: underline;
-    color: #fbf8ed;
+    color: white;
     align-items: center;
-  }
-  
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
   }
   
   .logo {
@@ -43,40 +38,81 @@
     font-weight: bold;
   }
 
+  .container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5px;
+    padding: 20px;
+  }
+
   .image-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    display: block;
+    grid-column: 2;
+    grid-row: 3;
   }
-  
-  .text-box {
-    background-color: #eee;
+
+  .bottom-right {
+    width: 100%;
     padding: 20px;
-    display: flex;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .image-box .top-left {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .text-box1 {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    grid-column: 2;
+    grid-row: 1;
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 200px;
   }
 
-  .top-right {
-    grid-area: text1;
+  .text-box2 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    grid-column: 1;
+    
   }
-  
-  .bottom-left {
-    grid-area: text2;
-  }
-  
-  .bottom-right {
-    grid-area: image2;
-  }
+  /* .text-box1 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  } */
+
+  /* .text-box2 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } */
   
   footer {
     display: flex;
     align-items: center;
     background-color: #397DC9;
-    color: #fbf8ed;
+    color: white;
     justify-content: space-between;
     padding: 20px;
     font-size: 0.9em;
@@ -90,7 +126,6 @@
   .icon-placeholder {
     width: 20px;
     height: 20px;
-    background-color: #aaa;
   }
 
 

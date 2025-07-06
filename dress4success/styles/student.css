@@ -9,7 +9,10 @@
   }
   
   body {
-    font-family: Red Hat Display, sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-family: 'Red Hat Display', sans-serif;
     background-color: #fdf8f0;
     color: #397DC9;
   }
