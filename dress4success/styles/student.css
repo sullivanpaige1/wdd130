@@ -26,6 +26,18 @@
     border-bottom: 2px solid #ccc;
   }
   
+  nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    color: white;
+    align-items: center;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
   .image-container {
     position: relative; /* Container for absolute positioning */
   }
@@ -130,15 +142,18 @@
     font-size: 0.9em;
   }
   
-  .footer-icons {
+  .footer {
     display: flex;
     gap: 10px;
   }
   
-  .icon-placeholder {
-    width: 20px;
-    height: 20px;
-    background-color: #aaa;
+  .social {
+    display: flex;
+    gap: 10px;
   }
 
+  .social img {
+    width: 40px;
+    height: 40px;
+  }
   
