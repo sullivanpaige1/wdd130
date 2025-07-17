@@ -26,9 +26,15 @@
   
   nav a {
     margin: 0 15px;
-    text-decoration: underline;
+    float: left;
+    text-decoration: none;
     color: white;
     align-items: center;
+  }
+
+  nav a:hover {
+    color: #F8C305;
+    font-weight: bold;
   }
 
   img {
