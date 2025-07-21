@@ -119,11 +119,10 @@
     color: white;
     justify-content: space-between;
     padding: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
   }
   
   .footer {
-    display: flex;
     gap: 10px;
   }
   

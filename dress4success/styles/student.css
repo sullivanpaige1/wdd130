@@ -57,13 +57,6 @@
   .image-container:hover .overlay-image {
     opacity: 1; /* Fully visible on hover */
   }     
-
-  nav a {
-    margin: 0 15px;
-    text-decoration: underline;
-    color: #fbf8ed;
-    align-items: center;
-  }
   
   .main-header {
     display: flex;
@@ -103,8 +96,7 @@
   .h2, .h3, .h4, .h5 {
     margin-bottom: 10px;
     text-align: center;
-    font-size: 1.2rem;
-    background-color: #ffe;
+    font-size: 1rem;
     padding: 5px 10px;
     display: inline-block;
     border-radius: 5px;
