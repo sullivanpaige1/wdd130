@@ -41,42 +41,10 @@
     width: 100px;
     height: 100px;
   }
-
-  .image-container {
-    position: relative; /* Container for absolute positioning */
-  }
-  
-  .overlay-image {
-    position: absolute; /* Position relative to the container */
-    top: 0; /* Adjust positioning as needed */
-    left: 0;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.5s ease; /* Fade-in transition */
-  }
-  
-  .image-container:hover .overlay-image {
-    opacity: 1; /* Fully visible on hover */
-  }     
-  
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
-  }
   
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  
-  .nav-links a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
   }
   
   .banner {
@@ -86,23 +54,41 @@
     margin-bottom: 20px;
   }
   
-  .h6 {
+  .progression {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 0 40px 40px;
   }
 
-  .h2, .h3, .h4, .h5 {
+  h1 {
+    font-size: 1.2rem;
     margin-bottom: 10px;
     text-align: center;
-    font-size: 1rem;
+    color: #285f9e;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #397DC9;
+  }
+
+  .progress {
+    text-align: center;
+  }
+
+  .progress h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    background-color: #ffe;
     padding: 5px 10px;
     display: inline-block;
     border-radius: 5px;
   }
   
-  .h2-box, .h3-box, .h4-box, .h5-box {
+  .progress-box {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;

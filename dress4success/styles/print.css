@@ -47,13 +47,6 @@
     font-weight: bold;
   }
   
-  .nav-links a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-  }
-  
   .banner {
     padding: 40px;
     text-align: center;
@@ -67,15 +60,28 @@
     gap: 30px;
     padding: 0 40px 40px;
   }
+
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #285f9e;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #397DC9;
+  }
   
   .resource {
     text-align: center;
   }
   
-  .resource h3 {
+  .resource h1 {
     margin-bottom: 10px;
     font-size: 1.2rem;
-    background-color: #ffe;
     padding: 5px 10px;
     display: inline-block;
     border-radius: 5px;
